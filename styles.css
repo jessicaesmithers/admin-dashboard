@@ -102,8 +102,6 @@
     padding: 3px 8px;
 }
 
-.header * {border: 1px solid red;}
-
 .header-top {
     display: grid;
     grid-template-columns: 0.6fr 8fr 1fr 4fr;
