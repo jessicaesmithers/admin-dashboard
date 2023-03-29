@@ -102,6 +102,8 @@
     padding: 3px 8px;
 }
 
+.header * {border: 1px solid red;}
+
 .header-top {
     display: grid;
     grid-template-columns: 0.6fr 8fr 1fr 4fr;
@@ -116,6 +118,11 @@
 .header-top > div:nth-of-type(4){
     display: grid;
     grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.header-top div {
+    display: grid;
     align-items: center;
 }
 
