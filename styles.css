@@ -104,7 +104,7 @@
 
 .header-top {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr 4fr;
+    grid-template-columns: 0.6fr 8fr 1fr 4fr;
     align-items: center;
 }
 
@@ -176,7 +176,7 @@
 .main-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
+    gap: 25px;
     margin-top: 0;
 }
 
